@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap') ;
+
+
+body {
+    font-size: 13pt;
+    margin: 0px;
+    padding: 0px;
+    font-family: almarai;
+    
+}
+
+
+.a1 {
+  width: 98%;
+  display: flex ;
+  justify-content: space-around ;
+  flex-wrap: wrap;
+  margin: 5px ;
+  
+  
+}
+.a2 {
+  background: ghostwhite;
+  text-align: center;
+  margin: 10px ;
+  padding: 10px;
+  border-radius: 10px ;
+  width: 40%;
+  line-height: 25px
+  
+  
+  
+  
+}
+
+.a2 img {
+  width: 100%;
+  border-radius: 10px ;
+  
+}
+
+.a2 button {
+  background: seagreen;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 15px;
+  border: 10px cornsilk;
+  font-family: almarai;
+  
+}
+.a1 button a {
+  color: white;
+  text-decoration: none
+}
+.navbar  {
+  list-style: none ;
+  margin: 0px ;
+  padding: 0px ;
+  background-color: dodgerblue;
+  text-align: center
+  }
+  .navbar li {
+  display: inline-block;
+ }
+.navbar li a {
+  display: block;
+  text-decoration: none ;
+  padding: 0px 15px ;
+  line-height: 50px;
+  color: white;
+}
